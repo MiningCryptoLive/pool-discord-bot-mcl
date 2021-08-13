@@ -6,7 +6,7 @@ module.exports = {
 	name: 'help',
 	description: 'Bot Commands',
 	execute(message, args) {
-		embed = new Discord.MessageEmbed()
+		embed = new MessageEmbed()
 				.setTitle('Here to help!')
 	//			.setURL(config.BLOCK_EXPLORER+blockDetails.height)
 				.setColor(0x65a6d5) //make it monerod blue
