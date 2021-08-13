@@ -8,7 +8,6 @@ module.exports = {
 	name: 'help',
 	description: 'Bot Commands',
 	execute(message, args) {
-		const channel = message.channel.id;
 		embed = new Discord.MessageEmbed()
 				.setTitle('Here to help!')
 	//			.setURL(config.BLOCK_EXPLORER+blockDetails.height)
@@ -19,6 +18,6 @@ module.exports = {
 				.addField('!hashrate', 'Once linked I can announce your current hashrate')
 				.addField('!hashrate average', 'Once linked I can announce your average hashrate');
 		
-			channel.send(embed);
+			message.channel.send(embed);
 	}
 };
