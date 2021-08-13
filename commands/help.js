@@ -8,6 +8,7 @@ module.exports = {
 	name: 'help',
 	description: 'Bot Commands',
 	execute(message, args) {
+		const channel = message.channel.id;
 		embed = new Discord.MessageEmbed()
 				.setTitle('Here to help!')
 	//			.setURL(config.BLOCK_EXPLORER+blockDetails.height)
