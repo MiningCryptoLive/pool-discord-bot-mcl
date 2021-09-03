@@ -1,7 +1,7 @@
 # pool-discord-bot
 Mining Pool Discord Bot to announce on new block found from nodejs-pool
 
-Created for MONEROMINEco by fallacy
+Created for Monerod.org by fallacy
 
 Requirements:
 
